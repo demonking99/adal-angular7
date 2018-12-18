@@ -1,0 +1,49 @@
+{
+  "name": "adal-angular7-wrapper",
+  "version": "1.0.0",
+  "description": "Angular 7 ADAL Wrapper. This version is a fork of follwing library for some personal implementation. No Support is available for this version. Original: https://github.com/benbaran/adal-angular4 ",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node_modules/.bin/ngc -p tsconfig-aot.json",
+    "packagr": "ng-packagr -p ng-package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demonking99/adal-angular7"
+  },
+  "keywords": [
+    "ADAL",
+    "Angular"
+  ],
+  "author": "demonking99",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demonking99/adal-angular7"
+  },
+  "homepage": "https://github.com/demonking99/adal-angular7#readme",
+  "peerDependencies": {},
+  "devDependencies": {
+    "@angular/common": "~7.1.3",
+    "@angular/compiler": "~7.1.3",
+    "@angular/compiler-cli": "~7.1.3",
+    "@angular/core": "~7.1.3",
+    "@angular/platform-browser": "~7.1.3",
+    "@angular/router": "~7.1.3",
+    "@types/jasmine": "~3.3.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^3.1.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-watch": "^5.0.0",
+    "ng-packagr": "^4.4.5",
+    "npm": "^6.4.0",
+    "rollup": "~0.65.0",
+    "rxjs": "~6.3.3",
+    "typescript": "^3.1.6",
+    "uglify-js": "~3.4.8",
+    "zone.js": "~0.8.26"
+  },
+  "dependencies": {
+    "adal-angular": "=1.0.15"
+  }
+}
